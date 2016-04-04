@@ -1,8 +1,15 @@
-# DemoBasicWidget
+﻿# DemoBasicWidget
 ## Yêu cầu
 + Thêm TextView vào giao diện
 + Thêm EditText vào giao diện
 + Khi dòng chữ dài thì hiển thị ... ở cuối dòng
+
+##Chú ý khi code
+```
+Do not use android:singeLine = "true", it is deprecated.
+android:maxLines = "1" will not display the three dots (...)
+android:lines = "1" will not display the three dots (...)
+```
 
 ##Công cụ phát triển
 + Bộ công cụ Android Studio 
